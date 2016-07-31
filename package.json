@@ -1,0 +1,17 @@
+{
+  "name": "node-handlebars-boilerplate",
+  "version": "1.0.0",
+  "description": "A light weight nodeJS MVC boilerplate with handlebars and sequelize",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Eckenrode",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "sequelize": "^3.23.6"
+  }
+}
