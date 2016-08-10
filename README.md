@@ -2,11 +2,12 @@
 1. Run npm init
 2. Configure the config.json file with your database details with your own mysql database.
 3. Create a new file, name it '.env' inside save details to your production JAWSDB like so: JAWSDB_URL= yourJAWSDBURLHere
-4. Remove the git remote for the project with rm -rf .git
-5. Initialize your own git repo with git init
-6. Connect your local git repo to your remote git repo with git remote add origin your-github-repo-ssh-key-goes-here
-7. Configure the package.json with your own information.
-8. Run the server with npm start or node server.js
+4. Remove the git folder for the project with rm -rf .git
+5. Remove the git remote to my repo with git remote rm origin
+6. Initialize your own git repo with git init
+7. Connect your local git repo to your remote git repo with git remote add origin your-github-repo-ssh-key-goes-here
+8. Configure the package.json with your own information.
+9. Run the server with npm start or node server.js
 
 
 ## Need to know ##
