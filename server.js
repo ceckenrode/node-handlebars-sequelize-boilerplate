@@ -4,7 +4,6 @@ var bodyParser = require('body-parser');
 var exphbs = require('express-handlebars');
 var methodOverride = require('method-override');
 var app = express();
-require('dotenv').config();
 
 
 //App middleware -------------------------------------------/
@@ -22,8 +21,8 @@ app.engine('handlebars', exphbs({
 app.set('view engine', 'handlebars');
 
 //Route config -------------------------------------------/
-var htmlRoutes = require('./controllers/routes/htmlRoutes')(app);
-var apiRoutes = require('./controllers/routes/apiRoutes')(app);
+require('./routes/htmlRoutes')(app);
+require('./routes/apiRoutes')(app);
 
 //Database config ---------------------------------------/
 global.db = require('./models');
