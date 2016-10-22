@@ -1,13 +1,12 @@
 ## INSTRUCTIONS ##
 1. Run npm init
 2. Configure the config.json file with your database details with your own mysql database.
-3. Remove the git folder for the project with rm -rf .git
-4. Remove the git remote to my repo with git remote rm origin
-5. Initialize your own git repo with git init
-6. Connect your local git repo to your remote git repo with git remote add origin your-github-repo-ssh-key-goes-here
-7. Configure the package.json with your own information.
-8. Run the server with npm start or node server.js.
-9. Navigate to localhost:3000
+3. Remove the git repository from this project with rm -rf .git
+4. Initialize your own git repo with git init
+5. Connect your local git repo to your remote git repo with git remote add origin your-github-repo-ssh-key-goes-here
+6. Configure the package.json with your own information.
+7. Run the server with npm start or node server.js.
+8. Navigate to localhost:3000
 
 ## Need to know ##
 1. The public folder contains all public assets such as client side javascript files, css, and images.
