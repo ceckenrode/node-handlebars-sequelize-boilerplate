@@ -6,7 +6,7 @@
 5. Initialize your own git repo with git init
 6. Connect your local git repo to your remote git repo with git remote add origin your-github-repo-ssh-key-goes-here
 7. Configure the package.json with your own information.
-8. Run the server with npm start or node server.js
+8. Run the server with npm start or node server.js. Navigate to localhost:3000
 
 ## Need to know ##
 1. The public folder contains all public assets such as client side javascript files, css, and images.
