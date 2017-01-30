@@ -17,8 +17,10 @@
 ## Sequelize
 Our database is a global object. No need to require and export the the instance of our Sequelize connection (db). Access any of your models from anywhere in your project like so:
 
-db.User.create({name: username, password: password});
+db.User.create({ name: username, password: password });
 
 or
 
-db.User.findOne({where: {name: username, password: password}});
+db.User.findOne({ where: { name: username, password: password } });
+
+## Note: The User model provided is for demonstration purposes. Add in your own authentication solution, don't store plain text passwords.
